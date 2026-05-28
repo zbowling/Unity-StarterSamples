@@ -48,3 +48,9 @@ This project depends on SDKs defined in the [Packages/manifest.json](./Packages/
       5. Click on <i>Assets->Import Package->Custom Package...</i> from the menu bar
       6. Find the package we saved in step 3 and click <i>Open</i>
     </details>
+
+## AI coding agents
+
+This repo is wired up for AI coding agents — `AGENTS.md`, `.vscode/extensions.json`, `.mcp.json`, `.cursor/rules/`, and a few client-specific dotfiles surface the **Meta Horizon** VS Code/Cursor extension, the `hzdb` MCP server, and the Meta Quest skill set automatically.
+
+Full toolchain, including Unity skills and per-client install instructions: [github.com/meta-quest/agentic-tools](https://github.com/meta-quest/agentic-tools).
